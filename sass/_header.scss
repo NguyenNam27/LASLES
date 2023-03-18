@@ -1,0 +1,20 @@
+.header {
+    padding-top: 20px;
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+// .header .container{
+//     display: flex;
+// }
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0 40px; 
+    &-link {
+        color:inherit //kế thừa từ body
+    }
+}
